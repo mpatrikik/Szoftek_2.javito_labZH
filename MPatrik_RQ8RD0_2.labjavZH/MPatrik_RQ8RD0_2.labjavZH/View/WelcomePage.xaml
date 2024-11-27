@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MolnarPatrik_RQ8RD0_2.javitolaborZH.View.WelcomePage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame BackgroundColor="#2196F3" Padding="10" CornerRadius="0">
+                <Label Text="Wilkommen kleine Kinder!" HorizontalTextAlignment="Center" TextColor="DarkGreen" FontSize="36"/>
+            </Frame>
+            <Button Text="Login" Command="{Binding NavigateToLoginCommand}" />
+            <Button Text="Registration" Command="{Binding NavigateToRegistrationCommand}" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
