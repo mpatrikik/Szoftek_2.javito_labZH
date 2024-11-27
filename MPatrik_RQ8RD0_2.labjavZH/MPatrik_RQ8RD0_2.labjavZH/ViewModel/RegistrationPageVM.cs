@@ -20,7 +20,6 @@ namespace MolnarPatrik_RQ8RD0_2.javitolaborZH.ViewModel
                     Password = this.Password,
                 };
 
-                UserStore.AddUser(newUser);
                 Application.Current.MainPage.DisplayAlert("Done", "Succesfull registration!", "OK");
                 Application.Current.MainPage.Navigation.PopAsync();
             });

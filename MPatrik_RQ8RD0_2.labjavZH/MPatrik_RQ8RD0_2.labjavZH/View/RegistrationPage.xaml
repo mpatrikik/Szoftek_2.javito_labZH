@@ -1,13 +1,45 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="MolnarPatrik_RQ8RD0_2.javitolaborZH.View.RegistrationPage">
+             x:Class="MolnarPatrik_RQ8RD0_2.javitolaborZH.View.RegistrationPage"
+             BackgroundColor="#f0f8ff">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Registration" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" />
-            <Entry Placeholder="Username" />
-            <Entry Placeholder="Password" IsPassword="True" />
-            <Button Text="Registration" />
+        <StackLayout Padding="20" Spacing="15" VerticalOptions="Center">
+
+            <Label Text="Registration"
+                   FontSize="28"
+                   HorizontalOptions="Center"
+                   TextColor="#333" />
+
+            <Entry Placeholder="Username"
+                   FontSize="18"
+                   TextColor="#333"
+                   BackgroundColor="#ffffff"
+                   Margin="0,10,0,0"
+                   HeightRequest="50" />
+
+            <Entry Placeholder="Password"
+                   FontSize="18"
+                   IsPassword="True"
+                   TextColor="#333"
+                   BackgroundColor="#ffffff"
+                   HeightRequest="50" />
+
+            <Entry Placeholder="Password Again"
+                   FontSize="18"
+                   IsPassword="True"
+                   TextColor="#333"
+                   BackgroundColor="#ffffff"
+                   HeightRequest="50" />
+
+            <Button Text="Register"
+                    FontSize="18"
+                    BackgroundColor="#2196F3"
+                    TextColor="White"
+                    CornerRadius="25"
+                    HeightRequest="50"
+                    HorizontalOptions="Center"
+                    WidthRequest="200" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

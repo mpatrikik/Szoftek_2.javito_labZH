@@ -16,19 +16,6 @@ namespace MolnarPatrik_RQ8RD0_2.javitolaborZH.ViewModel
         public ICommand LoginCommand { get; }
         public LoginPageVM()
         {
-            LoginCommand = new Command(() =>
-            {
-                bool isValid = UserStore.ValidateUser(Username, Password);
-
-                if (isValid)
-                {
-                    Application.Current.MainPage.DisplayAlert("Done", "Login successfully!", "OK");
-                }
-                else
-                {
-                    Application.Current.MainPage.DisplayAlert("Error", "Incorrect username or password!", "OK");
-                }
-            });
         }
     }
 }
