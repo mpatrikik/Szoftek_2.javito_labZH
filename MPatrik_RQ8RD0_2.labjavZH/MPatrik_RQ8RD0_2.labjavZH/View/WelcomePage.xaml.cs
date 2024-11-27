@@ -17,6 +17,7 @@ namespace MolnarPatrik_RQ8RD0_2.javitolaborZH.View
         {
             InitializeComponent();
             BindingContext = new WelcomePageVM();
+            NavigationPage.SetHasNavigationBar(this, false);
         }
     }
 }
