@@ -1,23 +1,20 @@
-﻿using MolnarPatrik_RQ8RD0_2.javitolaborZH.ViewModel;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+﻿using MPatrik_RQ8RD0_2.labjavZH.ViewModel;
+using System.Diagnostics;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace MolnarPatrik_RQ8RD0_2.javitolaborZH.View
+namespace MPatrik_RQ8RD0_2.labjavZH.View
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class WelcomePage : ContentPage
+    public partial class WelcomePage
     {
         public WelcomePage()
         {
             InitializeComponent();
             BindingContext = new WelcomePageVM();
+            Debug.WriteLine($"BindingContext set to: {BindingContext.GetType().Name}");
             NavigationPage.SetHasNavigationBar(this, false);
+            Debug.WriteLine($"BindingContext is set to: {BindingContext}");
         }
     }
 }

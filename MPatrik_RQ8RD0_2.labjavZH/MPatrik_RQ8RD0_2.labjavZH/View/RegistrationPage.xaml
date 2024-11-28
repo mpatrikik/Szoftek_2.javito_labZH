@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="MolnarPatrik_RQ8RD0_2.javitolaborZH.View.RegistrationPage"
+             xmlns:vm="clr-namespace:MPatrik_RQ8RD0_2.labjavZH.ViewModel"
+             x:Class="MPatrik_RQ8RD0_2.labjavZH.View.RegistrationPage"
              BackgroundColor="#f0f8ff">
     <ContentPage.Content>
         <StackLayout Padding="20" Spacing="15" VerticalOptions="Center">
@@ -16,14 +17,16 @@
                    TextColor="#333"
                    BackgroundColor="#ffffff"
                    Margin="0,10,0,0"
-                   HeightRequest="50" />
+                   HeightRequest="50"
+                   Text="{Binding Username}"/>
 
             <Entry Placeholder="Password"
                    FontSize="18"
                    IsPassword="True"
                    TextColor="#333"
                    BackgroundColor="#ffffff"
-                   HeightRequest="50" />
+                   HeightRequest="50"
+                   Text="{Binding Password}"/>
 
             <Entry Placeholder="Password Again"
                    FontSize="18"
@@ -39,7 +42,8 @@
                     CornerRadius="25"
                     HeightRequest="50"
                     HorizontalOptions="Center"
-                    WidthRequest="200" />
+                    WidthRequest="200"
+                    Command="{Binding RegisterCommand}"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

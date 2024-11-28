@@ -1,10 +1,10 @@
-﻿using MolnarPatrik_RQ8RD0_2.javitolaborZH.Model;
+﻿using MPatrik_RQ8RD0_2.labjavZH.Model;
 using System.Windows.Input;
 using Xamarin.Forms;
 
-namespace MolnarPatrik_RQ8RD0_2.javitolaborZH.ViewModel
+namespace MPatrik_RQ8RD0_2.labjavZH.ViewModel
 {
-    public class RegistrationPageVM : ContentPage
+    public class RegistrationPageVM
     {
         public string Username { get; set; }
         public string Password { get; set; }

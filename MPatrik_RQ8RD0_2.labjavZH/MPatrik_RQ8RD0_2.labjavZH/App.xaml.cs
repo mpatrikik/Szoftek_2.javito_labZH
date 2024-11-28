@@ -1,7 +1,6 @@
-﻿using MolnarPatrik_RQ8RD0_2.javitolaborZH.View;
-using System;
+﻿using MPatrik_RQ8RD0_2.labjavZH.View;
+using System.Diagnostics;
 using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
 
 namespace MPatrik_RQ8RD0_2.labjavZH
 {

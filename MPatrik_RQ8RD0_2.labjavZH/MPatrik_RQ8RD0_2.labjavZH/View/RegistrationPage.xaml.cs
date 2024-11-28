@@ -1,13 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+﻿using MPatrik_RQ8RD0_2.labjavZH.ViewModel;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace MolnarPatrik_RQ8RD0_2.javitolaborZH.View
+namespace MPatrik_RQ8RD0_2.labjavZH.View
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class RegistrationPage : ContentPage
@@ -15,6 +10,7 @@ namespace MolnarPatrik_RQ8RD0_2.javitolaborZH.View
         public RegistrationPage()
         {
             InitializeComponent();
+            BindingContext = new RegistrationPageVM();
         }
     }
 }

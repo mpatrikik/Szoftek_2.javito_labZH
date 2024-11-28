@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace MolnarPatrik_RQ8RD0_2.javitolaborZH.Model
+namespace MPatrik_RQ8RD0_2.labjavZH.Model
 {
     public class User
     {

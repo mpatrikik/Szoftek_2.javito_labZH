@@ -1,7 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="MolnarPatrik_RQ8RD0_2.javitolaborZH.View.WelcomePage"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:vm="clr-namespace:MPatrik_RQ8RD0_2.labjavZH.ViewModel"
+             x:Class="MPatrik_RQ8RD0_2.labjavZH.View.WelcomePage"
              BackgroundColor="#b8d2fc">
     <ContentPage.Content>
         <Grid Padding="20" RowSpacing="15" ColumnSpacing="0">
